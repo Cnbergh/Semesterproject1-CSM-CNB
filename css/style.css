@@ -240,7 +240,8 @@ footer {
 }
 
 .content {
-  margin: 2rem auto auto;
+  padding: 1rem 0 1rem;
+  margin: 1rem auto auto;
 }
 .content-wrapper {
     padding: 1rem;
