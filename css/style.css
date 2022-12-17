@@ -279,7 +279,7 @@ footer {
 
 .container,
 .grid-item_container [data-type="narrow"] {
-  max-width: 320px;
+  max-width: 280px;
   margin: auto;
 }
 .container,
