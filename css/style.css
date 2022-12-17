@@ -266,7 +266,6 @@ footer {
     right: 0.8rem;
     z-index: 2;
     font-size: 0.9rem;
-    font-size: clamp(0.9rem,10cqi + 0.5rem, 3rem);
     margin: 0.2rem auto;
     background: var(--color-dark-orange);
     opacity: 0.97;
@@ -280,6 +279,7 @@ footer {
     right: 70px;
     z-index: 2;
     font-size: 3rem;
+    font-size: clamp(0.9rem,10cqi + 0.5rem, 3rem);
     margin: 4rem 0px 2rem;
     max-width: 30%;
     background: var(--color-dark-orange);
