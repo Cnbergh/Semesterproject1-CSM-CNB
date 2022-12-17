@@ -248,13 +248,16 @@ footer {
   width: 100%;
 }
 
-.container [data-type="narrow"] {
+.container,
+.grid-item_container [data-type="narrow"] {
   max-width: 320px;
 }
-.container [data-type="medium"] {
+.container,
+.grid-item_container [data-type="medium"] {
   max-width: 620px;
 }
-.container [data-type="wide"] {
+.container,
+.grid-item_container [data-type="wide"] {
   max-width: 1728px;
 }
 
