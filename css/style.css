@@ -86,6 +86,7 @@ img {
 .logo {
   background-image: url(/images/csm-logo/Logo-regular-spacetext.png);
   height: 60px;
+  flex: 1;
 }
 
 
