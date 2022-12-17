@@ -431,12 +431,9 @@ footer {
 }
 
 .card {
-  container-type: inline-size;
-  container-name: card;
   display: grid;
   grid-template-columns: auto;
   gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
 }
-
