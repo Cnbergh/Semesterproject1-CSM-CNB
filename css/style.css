@@ -84,27 +84,20 @@ img {
 }
 
 .logo {
-  background-image: url(/images/csm-logo/Logo-regular-spacetext.png);
+  background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
   background-size: cover;
   height: 60px;
   width: 60px;
 }
-.logo:hover,
-.logo:focus {
-  background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
-}
 
-@media (max-width: 490px) {
+
+@media (max-width: 760px) {
   .csm-text {
     display: none;
   }
   .logo {
-    background-image: url(/images/csm-logo/Logo-regular.png);
+    background-image: url(/images/csm-logo/Logo-solid.png);
   }
-  .logo:hover,
-  .logo:focus {
-  background-image: url(/images/csm-logo/Logo-solid.png);
-}
 }
 
 header,
