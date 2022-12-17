@@ -171,6 +171,23 @@ footer {
   right: 70px;
   z-index: 2;
 }
+.standard-button {
+  background: var(--color-dark-gray);
+  color: var(--color-white);
+  padding: 5px 15px;
+  min-height: 48px;
+  min-width: 148px;
+  max-width: 280px;
+  cursor: pointer;
+}
+
+.standard-button:hover,
+.standard-button:focus {
+  background: var(--color-beige);
+  color: var(--primary-font-color);
+  transition-property: background, color;
+  transition-duration: 350ms;
+}
 
 .nav-button:hover,
 .nav-button:focus {
@@ -423,20 +440,3 @@ footer {
   padding: 1rem;
 }
 
-.standard-button {
-  background: var(--color-dark-gray);
-  color: var(--color-white);
-  padding: 5px 15px;
-  min-height: 48px;
-  min-width: 148px;
-  max-width: 280px;
-  cursor: pointer;
-}
-
-.standard-button:hover,
-.standard-button:focus {
-  background: var(--color-beige);
-  color: var(--primary-font-color);
-  transition-property: background, color;
-  transition-duration: 350ms;
-}
