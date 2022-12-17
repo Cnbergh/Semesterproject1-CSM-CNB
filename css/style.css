@@ -374,12 +374,6 @@ footer {
   gap: 1;
 }
 
-@container content-container (min-width 280px) {
-  .card {
-    gap:0;
-  }
-}
-
 .grid-item_container {
   container-type: inline-size;
   container-name: grid-item_container;
@@ -420,6 +414,8 @@ footer {
 }
 
 .card {
+  container-type: inline-size;
+  container-name: card;
   display: grid;
   grid-template-columns: auto;
   gap: 2rem;
