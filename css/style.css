@@ -240,17 +240,7 @@ footer {
 .hero-img {
   width: 100%;
 }
-.hero-text-block {
-  text-align: center;
-  position: absolute;
-  right: 70px;
-  z-index: 2;
-  font-size: 3rem;
-  margin: 4rem 0px 2rem;
-  max-width: 30%;
-  background: var(--color-dark-orange);
-  opacity: 0.97;
-}
+
 
 .hero-button {
   font-size: 2rem;
@@ -267,6 +257,19 @@ footer {
   opacity: 1;
   background: var(--color-blue);
   color: var(--font-white);
+}
+
+@container hero (min-width:280px) {
+  .hero-text-block {
+    text-align: center;
+    position: absolute;
+    right: 0.8rem;
+    z-index: 2;
+    font-size: 0.9rem;
+    margin: 0.2rem auto;
+    background: var(--color-dark-orange);
+    opacity: 0.97;
+  }
 }
 
 .content {
