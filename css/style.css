@@ -84,7 +84,7 @@ img {
 }
 
 .logo {
-  background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
+  background-image: url(/images/csm-logo/Logo-solid.png);
   background-size: cover;
   height: 60px;
   width: 60px;
@@ -93,10 +93,10 @@ img {
 
 @media (max-width: 760px) {
   .csm-text {
-    display: none;
+    display: block;
   }
   .logo {
-    background-image: url(/images/csm-logo/Logo-solid.png);
+    background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
   }
 }
 
@@ -139,6 +139,7 @@ footer {
 }
 
 .csm-text {
+  display: none;
   text-align: center;
   position: relative;
   top: 15%;
