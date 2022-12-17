@@ -93,7 +93,7 @@ img {
 
 @media (min-width: 760px) {
   .csm-text {
-    display: block;
+    display: inline-block;
   }
   .logo {
     background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
