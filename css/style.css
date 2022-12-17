@@ -271,6 +271,7 @@ footer {
 .grid-item_container {
   container-type: inline-size;
   container-name: grid-item_container;
+  display: grid;
 }
 
 
