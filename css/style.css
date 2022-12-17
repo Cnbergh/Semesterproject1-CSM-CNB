@@ -261,6 +261,12 @@ footer {
   margin:auto;
 }
 
+
+.container {
+  container-type: inline-size;
+  container-name: content-container;
+}
+
 .container > * {
   container-type: inline-size;
   container-name: content-container;
