@@ -156,7 +156,7 @@ footer {
   letter-spacing: 0.06rem;
 }
 
-@media (min-width 1170px) {
+@media (min-width: 1170px) {
   .nav-text-block {
     font-size: clamp (1.2, 2.5vh,2.5rem);
   }
