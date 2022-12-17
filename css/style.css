@@ -248,17 +248,14 @@ footer {
   width: 100%;
 }
 
-@container [data-type="narrow"] {
+.container [data-type="narrow"] {
   max-width: 320px;
-  margin: auto;
 }
-@container [data-type="medium"] {
+.container [data-type="medium"] {
   max-width: 620px;
-  margin: auto;
 }
-@container [data-type="wide"] {
+.container [data-type="wide"] {
   max-width: 1728px;
-  margin:auto;
 }
 
 
