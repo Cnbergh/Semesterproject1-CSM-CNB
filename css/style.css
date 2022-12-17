@@ -104,6 +104,11 @@ footer {
 .header-midle-wrapper {
   padding-right: 144px;
 }
+@media (max-width: 980px) {
+  .header-midle-wrapper {
+    display: hide;
+  }
+}
 
 .nav-horizontal {
   position: relative;
@@ -160,7 +165,7 @@ footer {
     font-size: 2rem;
   }
   .header-nav-item {
-    padding: 1rem 1rem 0;
+    padding: 1rem 0.5rem 0;
   }
 }
 
