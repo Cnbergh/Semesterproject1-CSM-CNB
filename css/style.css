@@ -159,6 +159,9 @@ footer {
   .nav-text-block {
     font-size: 2rem;
   }
+  .header-nav-item {
+    padding: 1rem 1rem 0;
+  }
 }
 
 .nav-icon {
