@@ -258,7 +258,7 @@ footer {
 }
 .container,
 .grid-item_container [data-type="wide"] {
-  max-width: 1728px;
+  max-width: 1440px;
 }
 
 
