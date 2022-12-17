@@ -265,19 +265,16 @@ footer {
   }
   .hero-text-block {
     text-align: center;
-    right: 0;
-    z-index: 2;
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin: auto;
     background: var(--color-dark-orange);
-    opacity: 0.97;
   }
 
   .hero-button {
-    font-size: 0.9rem;
-    bottom: -1rem;
+    font-size: 1rem;
+    text-align: center;
     position: absolute;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 2rem;
     z-index: 2;
     background: var(--color-light-blue);
     opacity: 0.97;
