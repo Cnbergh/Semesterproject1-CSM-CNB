@@ -155,7 +155,7 @@ footer {
   letter-spacing: 0.06rem;
 }
 
-@media (min-width: 1170px) {
+@media (max-width: 1170px) {
   .nav-text-block {
     font-size: 2rem;
   }
