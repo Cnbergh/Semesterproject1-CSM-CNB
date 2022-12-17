@@ -91,7 +91,7 @@ img {
 }
 
 
-@media (max-width: 760px) {
+@media (min-width: 760px) {
   .csm-text {
     display: block;
   }
