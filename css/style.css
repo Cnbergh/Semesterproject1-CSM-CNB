@@ -91,15 +91,6 @@ img {
 }
 
 
-@media (min-width: 760px) {
-  .csm-text {
-    display: inline-block;
-  }
-  .logo {
-    background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
-  }
-}
-
 header,
 footer {
   background-color: var(--color-black);
@@ -144,6 +135,15 @@ footer {
   position: relative;
   top: 15%;
   left: -5%;
+}
+
+@media (min-width: 760px) {
+  .csm-text {
+    display:block;
+  }
+  .logo {
+    background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
+  }
 }
 
 .flex-aligne-items-center {
