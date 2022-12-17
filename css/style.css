@@ -34,7 +34,7 @@ html,
 body {
   text-rendering: optimizespeed;
   height: 100%;
-  min-width: 320px;
+  min-width: 280px;
   overflow-wrap: break-word;
   overflow: hidden;
   overflow-y: scroll;
@@ -89,8 +89,23 @@ img {
   height: 60px;
   width: 60px;
 }
+.logo:hover,
+.logo:focus {
+  background-image: url(/images/csm-logo/Logo-solid-spacetext.png);
+}
 
-
+@media (max-width: 490px) {
+  .csm-text {
+    display: none;
+  }
+  .logo {
+    background-image: url(/images/csm-logo/Logo-regular.png);
+  }
+  .logo:hover,
+  .logo:focus {
+  background-image: url(/images/csm-logo/Logo-solid.png);
+}
+}
 
 header,
 footer {
