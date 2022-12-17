@@ -252,14 +252,17 @@ footer {
 .container,
 .grid-item_container [data-type="narrow"] {
   max-width: 320px;
+  margin: auto;
 }
 .container,
 .grid-item_container [data-type="medium"] {
   max-width: 620px;
+  margin: auto;
 }
 .container,
 .grid-item_container [data-type="wide"] {
   max-width: 1440px;
+  margin: auto;
 }
 
 
