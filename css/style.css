@@ -300,9 +300,14 @@ footer {
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 40% auto;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 1rem;
   min-width: 160px;
   max-width: 280px;
-  margin: auto;
+  
 }
 
 .standard-button {
