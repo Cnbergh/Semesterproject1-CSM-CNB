@@ -296,8 +296,7 @@ footer {
 }
 
 .grid-item {
-  margin-right: 1rem;
-  margin-bottom: auto;
+  margin: 0 1rem auto;
 }
 
 .grid-item:hover,
