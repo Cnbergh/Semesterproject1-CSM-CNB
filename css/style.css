@@ -342,19 +342,19 @@ footer {
 
 .container,
 .grid-item_container [data-type="narrow"] {
-  min-width: 250px;
+  max-width: 280px;
   margin: auto;
 }
 
 .container,
 .grid-item_container [data-type="medium"] {
-  min-width: 620px;
+  max-width: 620px;
   margin: auto;
 }
 
 .container,
 .grid-item_container [data-type="wide"] {
-  min-width: 1440px;
+  max-width: 1440px;
   margin: auto;
 }
 
