@@ -271,10 +271,6 @@ footer {
 .grid-item_container {
   container-type: inline-size;
   container-name: grid-item_container;
-  margin-inline: auto;
-  display: grid;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
 }
 
 
