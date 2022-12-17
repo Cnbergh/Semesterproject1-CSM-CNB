@@ -296,9 +296,8 @@ footer {
 }
 
 .grid-item {
-  margin-right: 20px;
-  margin-bottom: 30px;
-  max-height: 380px;
+  margin-right: 1rem;
+  margin-bottom: auto;
 }
 
 .grid-item:hover,
