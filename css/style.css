@@ -244,7 +244,6 @@ footer {
   container-type: inline-size;
   container-name: hero;
   margin-inline: auto;
-  display: flex;
 }
 
 .hero-img {
