@@ -418,6 +418,7 @@ footer {
 .grid-item {
   margin: 0 1rem auto;
   max-width: 280px;
+  width: 100%;
 }
 
 .grid-item:hover,
