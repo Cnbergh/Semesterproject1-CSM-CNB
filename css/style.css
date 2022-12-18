@@ -437,9 +437,10 @@ footer {
 
 @container content-container (min-width:180px) {
   .card > p {
-    font-size:1em;
+    font-size:1cqi;
     line-height: 2em;
-    margin-top: 0 ;
-    margin-bottom: 0 ;
+    margin-top: 0;
+    margin-bottom: 0;
+    
   }
 }
