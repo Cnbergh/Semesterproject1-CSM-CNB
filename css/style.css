@@ -261,8 +261,7 @@ footer {
 }
 label .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
+  padding: 1rem 0 1rem 0;
   width: 30px;
   height: 2px;
   background: #69D2e7;
