@@ -334,11 +334,8 @@ footer {
 
 @container hero (min-width: 980px) {
   .hero-text-block {
-    right: 70px;
-    z-index: 2;
     font-size: 2rem;
-    font-size: clamp(2rem, 5cqi + 0.5rem, 4rem);
-    max-width: 30%;
+    font-size: clamp(2rem, 3cqi + 0.5rem, 4rem);
   }
 
   .hero-button {
