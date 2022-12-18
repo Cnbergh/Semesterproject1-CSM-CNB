@@ -48,18 +48,26 @@
         </a>
         <div class="nav-icon">
           <div class="menu-wrap">
-            <div class="menu-button">
-              <div class="hamburger">
-                <div class="hamburger-line _1-line"></div>
-                <div class="hamburger-line _2-line"></div>
-                <div class="hamburger-line _3-line"></div>
-              </div>
-            </div>
+            <input type="checkbox" id="hamburger-input"/>
+            <label id="hamburger-menu" for="hamburger-input">
+              <span class="menu"><span class="hamburger"></span></span>
+              <nav id="sidebar-menu">
+            <h3>Menu</h3>
+            <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            </ul>
+            </nav>
+          </label>
+             <div class="overlay"></div>
           </div>
         </div>
       </div>
     </div>
-  </header>
+</header>
   <main role="main" id="maincontent">
     <p>Visit
       Location
