@@ -630,7 +630,7 @@ ul li a{
 }
 
 @container grid-item_container (min-width:410px) {
-  .content-wrapper {
+  .grid-item_container:has(.content-wrapper) {
     max-width:780px;
   }
 }
