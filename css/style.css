@@ -189,7 +189,7 @@ footer {
 
 .standard-button:hover,
 .standard-button:focus {
-  background: var(--primary-color-background);
+  background: var(--color-dark-gray);
   transition-property: background;
   transition-duration: 350ms;
 }
