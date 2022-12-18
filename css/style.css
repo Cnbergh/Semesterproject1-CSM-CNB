@@ -369,7 +369,7 @@ label a {
     transition: 0.3s;
     padding: 0px 10px;
     box-sizing: border-box;
-    z-index: 5;
+    z-index: 20;
 }
 
 #hamburger-menu h3 {
@@ -399,6 +399,7 @@ label a {
 #hamburger-input:checked + #hamburger-menu #sidebar-menu {
     visibility: visible;
     left: 0;
+    z-index: 20;
 }
 #hamburger-input:checked ~ .overlay{
    visibility: visible;
