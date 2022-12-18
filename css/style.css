@@ -436,8 +436,9 @@ footer {
 }
 
 #aeronautics {
-  background-image: url(/images/img-svg/Aeronautics.svg);
-  background-size: cover;
+  background: url(/images/img-svg/Aeronautics.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
 }
 
 .text-align {
