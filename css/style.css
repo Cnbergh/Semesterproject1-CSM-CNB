@@ -33,6 +33,9 @@
 .font-primary-clr {
   color: var(--color-dark-gray);
 }
+.background-color-beige {
+  background-color: var(--color-beige);
+}
 
 .background-color-light-blue {
   background-color: var(--color-light-blue);
