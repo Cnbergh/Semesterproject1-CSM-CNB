@@ -277,7 +277,6 @@ footer {
 #menuToggle a {
   text-decoration: none;
   color: #232323;
-
   transition: color 0.3s ease;
 }
 
@@ -290,7 +289,7 @@ footer {
   display: block;
   width: 40px;
   height: 32px;
-  top: 0;
+  top: 1.2rem;
   position: absolute;
   cursor: pointer;
   opacity: 0;
