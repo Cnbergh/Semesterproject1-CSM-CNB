@@ -278,10 +278,6 @@ footer {
 }
 
 @container hero (min-width:280px) {
-  .hero {
-    .flex-row: column;
-
-  }
   .hero-text-block {
     text-align: center;
     font-size: 1rem;
