@@ -434,7 +434,7 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-.card:has(:no-) {
-  background:var(--color-beige);
+.card:has(p) {
+  gap:0
 }
 }
