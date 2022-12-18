@@ -410,12 +410,17 @@ footer {
 }
 
 .flex-row {
-  container-type: inline-size;
-  container-name: flex-row_container;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
+}
+
+.flex-row > * {
+  container-type: inline-size;
+  container-name: flex-row_container;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .grid-item {
