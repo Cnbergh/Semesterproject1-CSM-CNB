@@ -342,12 +342,12 @@ footer {
 
 #menu {
   position: absolute;
-  width: 300px;
-  margin: -100px 0 0 -50px;
+  width: 100%;
+  margin: 0;
   padding: 50px;
   padding-top: 125px;
 
-  background: #ededed;
+  background: var(--color-beige);
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
 
