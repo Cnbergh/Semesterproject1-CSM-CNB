@@ -297,8 +297,10 @@ footer {
 }
 
 @container hero (min-width:374px) {
+  .hero{
     display:flex;
-    
+  }
+
   .hero-text-block {
     text-align: center;
     position: absolute;
