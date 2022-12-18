@@ -263,11 +263,7 @@ footer {
   container-type: inline-size;
   container-name: hero;
   margin-inline: auto;
-}
-@media (min-width:374px) {
-  .hero {
-    display: flex;
-  }
+  display: flex;
 }
 
 .hero-img {
