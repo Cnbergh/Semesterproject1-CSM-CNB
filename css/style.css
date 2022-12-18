@@ -379,7 +379,7 @@ footer {
   width: 100%;
 }
 
-.container>* and >* {
+.container>* >* {
   container-type: inline-size;
   container-name: content-container;
   margin-inline: auto;
