@@ -379,7 +379,7 @@ footer {
 .container {
   container-type: inline-size;
   container-name: content-container;
-  padding: 1rem 0;
+  padding: 1rem;
   gap: 1rem;
   width: 100%;
 }
@@ -422,7 +422,6 @@ footer {
 
 .grid-item {
   margin: 0 1rem auto;
-  padding-bottom: 1rem;
   max-width: 280px;
   width: 100%;
 }
