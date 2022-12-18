@@ -390,7 +390,7 @@ footer {
 .grid-item_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
+  gap: 1rem;
 }
 
 
@@ -400,7 +400,7 @@ footer {
   margin-inline: auto;
   display: grid;
   grid-template-rows: auto;
-  grid-gap: 1rem;
+  gap: 1rem;
 }
 
 .card-list_title {
