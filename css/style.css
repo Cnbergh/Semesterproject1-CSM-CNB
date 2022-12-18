@@ -482,7 +482,7 @@ footer {
     margin-bottom: 0;
 
   }
-  .grid-item_container:has(:nth-child(5)) {
+  .grid-item_container:has(:nth-child(5)):is(.grid-item) {
     background:var(--color-light-red);
   }
   }
