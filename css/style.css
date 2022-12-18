@@ -434,6 +434,12 @@ footer {
   margin: 0 auto;
   padding: 1rem;
 }
+
+#aeronautics {
+  background-image: url(/images/img-svg/Aeronautics.svg);
+  background-size: cover;
+}
+
 .text-align {
   text-align: center;
 }
