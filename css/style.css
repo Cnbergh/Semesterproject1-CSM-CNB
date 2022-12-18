@@ -26,6 +26,9 @@
 .font-white {
   color: var(--font-white);
 }
+.font-primary {
+  color: var(--color-dark-gray);
+}
 
 .background-color-light-blue {
   background-color: var(--color-light-blue);
@@ -422,12 +425,6 @@ footer {
   width: 100%;
 }
 
-.grid-item:hover,
-.grid-item:focus {
-  opacity: 0.85;
-  
-}
-
 .card {
   display: grid;
   grid-template-columns: auto;
@@ -435,8 +432,12 @@ footer {
   padding: 1rem;
 }
 
-#aeronautics {
-  
+.call-to-action {
+  text-decoration: none;
+}
+.call-to-action:hover,
+.call-to-action:focus {
+  opacity: 0.85;
 }
 
 .text-align {
