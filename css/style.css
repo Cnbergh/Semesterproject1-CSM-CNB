@@ -283,7 +283,7 @@ footer {
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: var(--color-light-red);
 }
 
 
@@ -311,7 +311,7 @@ footer {
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: var(--color-light-red);
   border-radius: 3px;
   
   z-index: 1;
