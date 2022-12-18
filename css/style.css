@@ -319,7 +319,7 @@ footer {
   }
 }
 
-@container hero (min-width:768px) {
+@container hero (min-width:690px) {
   .hero-text-block {
     right: 2rem;
     z-index: 2;
