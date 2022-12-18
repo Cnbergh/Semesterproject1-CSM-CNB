@@ -33,6 +33,7 @@
 .font-primary-clr {
   color: var(--color-dark-gray);
 }
+
 .background-color-beige {
   background-color: var(--color-beige);
 }
@@ -48,6 +49,7 @@
 .background-color-orange {
   background-color: var(--color-orange);
 }
+
 .background-color-red {
   background-color: var(--color-light-red);
 }
@@ -419,14 +421,16 @@ ul {
   padding: 0;
 }
 
-ul li a{
+ul li a {
   text-decoration: none;
 }
+
 .main-nav {
   padding: 3rem;
 }
-.main-menu {
-}
+
+.main-menu {}
+
 .main-menu ul {
   z-index: 200;
   position: absolute;
@@ -473,7 +477,7 @@ ul li a{
   position: fixed;
   right: 0;
   top: 0;
-  transition: transform .7s ease;  
+  transition: transform .7s ease;
   width: 100vw;
   z-index: 100;
   transform: translateX(-100vw);
@@ -632,7 +636,7 @@ ul li a{
 
 @container grid-item_container (min-width:410px) {
   .grid-item_container:has(.content-wrapper) {
-    max-width:780px;
+    max-width: 780px;
   }
 }
 
@@ -707,7 +711,7 @@ ul li a{
     margin-bottom: 0;
 
   }
-  
+
 
 }
 
@@ -736,13 +740,15 @@ ul li a{
     margin-bottom: 0;
 
   }
+
   .content-wrapper {
-    max-width:780px;
+    max-width: 780px;
   }
 
   .grid-item {
     margin: 0 1rem auto;
     max-width: 380px;
     width: 100%;
+  }
 
 }
