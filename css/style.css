@@ -310,6 +310,7 @@ footer {
     right: 0;
     z-index: 2;
     font-size: 1.2rem;
+    font-size: clamp(1rem, 2.5cqi + 0.5rem, 3rem);
   }
 
   .hero-button {
@@ -322,8 +323,6 @@ footer {
   .hero-text-block {
     right: 70px;
     z-index: 2;
-    font-size: 1.2rem;
-    font-size: clamp(1rem, 10cqi + 0.5rem, 3rem);
     margin: 4rem 0px 2rem;
     max-width: 30%;
   }
@@ -334,7 +333,7 @@ footer {
     right: 70px;
     z-index: 2;
     font-size: 3rem;
-    font-size: clamp(0.9rem, 10cqi + 0.5rem, 3rem);
+    font-size: clamp(0.9rem, 5cqi + 0.5rem, 3rem);
     margin: 4rem 0px 2rem;
     max-width: 30%;
   }
