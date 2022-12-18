@@ -294,6 +294,7 @@ footer {
   }
 
   .hero-button {
+    left: 0;
     font-size: 1rem;
     position: absolute;
     z-index: 2;
