@@ -442,6 +442,7 @@ footer {
 
 .call-to-action {
   text-decoration: none;
+  width: 100%;
 }
 
 .call-to-action:hover,
