@@ -416,13 +416,6 @@ footer {
   justify-content: center;
 }
 
-.flex-row > * {
-  container-type: inline-size;
-  container-name: flex-row_container;
-  display: flex;
-  flex-flow: column wrap;
-}
-
 .grid-item {
   margin: 0 1rem auto;
 }
