@@ -436,5 +436,10 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-  padding:0;
+  .card > p {
+    line-height: 2 ;
+    margin-top: 0 ;
+    margin-bottom: 0 ;
+    text-indent: 22px ;
+  }
 }
