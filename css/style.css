@@ -173,6 +173,7 @@ footer {
   right: 70px;
   z-index: 2;
 }
+
 .standard-button {
   display: flex;
   align-items: center;
@@ -267,6 +268,7 @@ footer {
   container-name: hero;
   margin-inline: auto;
 }
+
 @media (min-width:470px) {
   .hero {
     display: flex;
@@ -325,10 +327,11 @@ footer {
     margin: 2rem 0;
     max-width: 35%;
   }
+
   .hero-button {
     bottom: -1.5rem;
     left: 10%;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
   }
 }
 
@@ -437,23 +440,25 @@ footer {
 
 @container content-container (min-width:180px) {
   .card-list_title {
-    font-size:1.5rem;
-    font-size:clamp(1.5rem,2cqi,3rem);
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 2cqi, 3rem);
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .card-title {
-    font-size:1rem;
-    font-size:clamp(1rem,1.5cqi,2.5rem);
+    font-size: 1rem;
+    font-size: clamp(1rem, 1.5cqi, 2.5rem);
     margin-top: 0;
     margin-bottom: 0;
   }
-  .card > p {
-    font-size:0.7rem;
-    font-size:clamp(0.7rem,2cqi,1.2rem);
+
+  .card>p {
+    font-size: 0.7rem;
+    font-size: clamp(0.7rem, 2cqi, 1.2rem);
     line-height: 2em;
     margin-top: 0;
     margin-bottom: 0;
-    
+
   }
 }
