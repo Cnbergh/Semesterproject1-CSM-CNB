@@ -425,6 +425,7 @@ footer {
 .grid-item:hover,
 .grid-item:focus {
   opacity: 0.85;
+  
 }
 
 .card {
@@ -432,6 +433,10 @@ footer {
   grid-template-columns: auto;
   margin: 0 auto;
   padding: 1rem;
+}
+
+#aeronautics {
+  
 }
 
 .text-align {
