@@ -417,6 +417,55 @@ label a {
   opacity: 0.4;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a{
+  text-decoration: none;
+}
+.main-nav {
+  padding: 3rem;
+}
+.main-menu {
+}
+
+.sidebar.expanded .hamburger:after {
+  transition: transform .7s ease-in-out;
+  transition-delay: .3s;
+  transform: rotate(-90deg);
+  bottom: 0;
+}
+
+.sidebar.expanded .hamburger:before {
+  display: none;
+}
+
+.sidebar.expanded .hamburger {
+  transition: transform .7s ease-in-out;
+  transition-delay: .3s;
+  transform: rotate(45deg);
+  bottom: 0;
+}
+
+.sidebar {
+  background-color: #fff;
+  height: 100vh;
+  left: 0;
+  overflow-y: auto;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: transform .7s ease;  
+  width: 100vw;
+  z-index: 100;
+  transform: translateX(-100vw);
+}
+
+.sidebar.expanded {
+  transform: translateX(0);
+}
 
 .hero {
   container-type: inline-size;
