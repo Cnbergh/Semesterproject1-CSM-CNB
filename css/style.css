@@ -389,7 +389,7 @@ footer {
 
 .grid-item_container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 1rem;
 }
 
@@ -399,7 +399,7 @@ footer {
   container-name: grid-item_container;
   margin-inline: auto;
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
@@ -434,7 +434,7 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-.card:has(h2) {
+.card:has(:no-) {
   background:var(--color-beige);
 }
 }
