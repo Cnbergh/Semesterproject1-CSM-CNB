@@ -420,6 +420,7 @@ footer {
 
 .grid-item {
   margin: 0 1rem auto;
+  max-width: 280px;
 }
 
 .grid-item:hover,
@@ -433,5 +434,4 @@ footer {
   gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
-  max-width: 280px;
 }
