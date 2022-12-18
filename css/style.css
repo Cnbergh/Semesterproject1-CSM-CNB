@@ -337,7 +337,7 @@ button input:checked+.menu+ul {
 
 #hamburger-menu {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 12px;
   width: 48px;
