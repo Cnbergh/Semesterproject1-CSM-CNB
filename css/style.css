@@ -637,7 +637,4 @@ label a {
 
   }
 
-  .grid-item_container:has(:nth-child(5)):is:nth-child {
-    background: var(--color-light-red);
-  }
 }
