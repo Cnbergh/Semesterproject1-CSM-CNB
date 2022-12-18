@@ -1,26 +1,26 @@
 input,
 select,
 textarea {
-  border: 1px solid var(--color-light-blue);
-  padding: 10px;
-  font-family: var(--primary-body-font-family);
-  width:100%;
+    border: 1px solid var(--color-light-blue);
+    padding: 10px;
+    font-family: var(--primary-body-font-family);
+    width: 100%;
 }
 
 textarea {
-  resize: vertical;
+    resize: vertical;
 }
+
 .textarea {
-    width:100%;
+    width: 100%;
     max-width: 670px;
 }
 
 .contact {
     display: flex;
-  max-width: 1440px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 10px 0 20px;
-  border-top: 1px;
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0 20px;
+    border-top: 1px;
 }
-
