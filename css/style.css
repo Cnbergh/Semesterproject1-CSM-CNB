@@ -264,7 +264,7 @@ footer {
   container-name: hero;
   margin-inline: auto;
 }
-@media (min-width:374px) {
+@media (min-width:410px) {
   .hero {
     display: flex;
   }
