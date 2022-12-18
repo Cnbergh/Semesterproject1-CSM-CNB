@@ -432,8 +432,8 @@ footer {
   padding: 1rem;
 }
 
-@container content-container (min-width:280px) {
-.card {
+@container content-container (min-width:180px) {
+.card:has(:img,:h3) {
   background:var(--color-beige);
 }
 }
