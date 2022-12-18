@@ -26,6 +26,7 @@
 .font-white {
   color: var(--font-white);
 }
+
 .font-primary-clr {
   color: var(--color-dark-gray);
 }
@@ -177,6 +178,11 @@ footer {
   z-index: 2;
 }
 
+.nav-button:hover,
+.nav-button:focus {
+  background-image: url(/images/img-svg/Ticket=hover.svg);
+}
+
 .standard-button {
   display: flex;
   align-items: center;
@@ -197,10 +203,6 @@ footer {
   transition-duration: 350ms;
 }
 
-.nav-button:hover,
-.nav-button:focus {
-  background-image: url(/images/img-svg/Ticket=hover.svg);
-}
 
 .nav-text-block {
   font-family: var(--primary-headings-font-family);
@@ -435,6 +437,7 @@ footer {
 .call-to-action {
   text-decoration: none;
 }
+
 .call-to-action:hover,
 .call-to-action:focus {
   opacity: 0.85;
