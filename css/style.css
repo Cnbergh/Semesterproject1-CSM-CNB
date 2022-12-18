@@ -408,9 +408,6 @@ footer {
   gap: 1rem;
 }
 
-.card-list_title {
-  text-align: center;
-}
 
 .flex-row {
   display: flex;
@@ -441,6 +438,7 @@ footer {
 @container content-container (min-width:180px) {
 
   .card-list_title {
+    text-align: center;
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 2cqi, 3rem);
     margin-top: 0;
@@ -448,6 +446,7 @@ footer {
   }
 
   .card-title {
+    text-align: center;
     font-size: 1rem;
     font-size: clamp(1rem, 1.5cqi, 2.5rem);
     margin-top: 0;
