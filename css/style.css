@@ -422,6 +422,7 @@ footer {
 
 .grid-item {
   margin: 0 1rem auto;
+  padding-bottom: 1rem;
   max-width: 280px;
   width: 100%;
 }
