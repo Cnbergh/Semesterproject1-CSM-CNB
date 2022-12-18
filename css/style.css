@@ -178,7 +178,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--color-dark-gray);
+  background: var(--color-blue);
   color: var(--color-white);
   padding: 5px 15px;
   min-height: 48px;
@@ -189,9 +189,8 @@ footer {
 
 .standard-button:hover,
 .standard-button:focus {
-  background: var(--color-beige);
-  color: var(--primary-font-color);
-  transition-property: background, color;
+  background: var(--primary-color-background);
+  transition-property: background;
   transition-duration: 350ms;
 }
 
@@ -280,13 +279,6 @@ footer {
 }
 
 
-.hero-button:hover,
-.hero-button:focus {
-  opacity: 1;
-  background: var(--color-blue);
-  color: var(--font-white);
-}
-
 @container hero (min-width:280px) {
   .hero-text-block {
     text-align: center;
@@ -301,7 +293,14 @@ footer {
     z-index: 2;
     background: var(--color-light-blue);
     color: var(--primary-font-color);
-    opacity: 0.97;
+  }
+
+  .hero-button:hover,
+  .hero-button:focus {
+    background: var(--color-blue);
+    color: var(--font-white);
+    transition-property: background;
+    transition-duration: 350ms;
   }
 }
 
@@ -433,12 +432,6 @@ footer {
   grid-template-columns: auto;
   margin: 0 auto;
   padding: 1rem;
-}
-
-#aeronautics {
-  background: url(/images/img-svg/Aeronautics.svg);
-  background-size: auto;
-  background-repeat: no-repeat;
 }
 
 .text-align {
