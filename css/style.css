@@ -433,7 +433,7 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-.card:has(:img,:h3) {
+.card:has(img,h3) {
   background:var(--color-beige);
 }
 }
