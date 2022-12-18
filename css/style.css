@@ -454,6 +454,7 @@ footer {
   }
 
   .card>p {
+    text-align: center;
     font-size: 0.7rem;
     font-size: clamp(0.7rem, 2cqi, 1.2rem);
     line-height: 2em;
