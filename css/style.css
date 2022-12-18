@@ -704,15 +704,15 @@ ul li a{
 
   .card-list_title {
     text-align: center;
-    font-size: 1.5rem;
-    font-size: clamp(1.5rem, 2cqi, 3rem);
+    font-size: 1.7rem;
+    font-size: clamp(1.7rem, 2cqi, 3rem);
     margin-top: 0;
     margin-bottom: 0;
   }
 
   .card-title {
-    font-size: 1rem;
-    font-size: clamp(1rem, 1.5cqi, 2.5rem);
+    font-size: 1.2rem;
+    font-size: clamp(1.2rem, 1.5cqi, 2.5rem);
     margin-top: 0;
     margin-bottom: 0;
   }
