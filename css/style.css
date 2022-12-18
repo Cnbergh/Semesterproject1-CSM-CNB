@@ -276,7 +276,7 @@ footer {
 
 #menuToggle a {
   text-decoration: none;
-  color: #232323;
+  color: var(--color-dark-gray);
   transition: color 0.3s ease;
 }
 
@@ -325,7 +325,7 @@ footer {
 #menuToggle input:checked~span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: var(--color-dark-gray);
 }
 
 
