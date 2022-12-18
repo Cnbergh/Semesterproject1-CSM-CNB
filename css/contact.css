@@ -12,6 +12,9 @@ textarea {
   max-width: 670px;
   resize: vertical;
 }
+.textarea {
+    width:100%;
+}
 
 .contact {
     display: flex;
