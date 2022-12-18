@@ -740,4 +740,9 @@ ul li a{
     max-width:780px;
   }
 
+  .grid-item {
+    margin: 0 1rem auto;
+    max-width: 380px;
+    width: 100%;
+
 }
