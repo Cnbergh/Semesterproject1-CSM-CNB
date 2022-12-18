@@ -236,7 +236,7 @@ footer {
 
 .a-action:hover,
 .a-action:focus {
-  color: var(--color-beige);
+  color: var(--color-light-red);
 }
 
 .menu-button {
