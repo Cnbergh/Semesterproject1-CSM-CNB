@@ -735,5 +735,8 @@ ul li a{
     margin-bottom: 0;
 
   }
+  .content-wrapper {
+    max-width:780px;
+  }
 
 }
