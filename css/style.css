@@ -452,10 +452,6 @@ footer {
 .text-align {
   text-align: center;
 }
-.ai-jc{    
-  align-items: center;
-  justify-content: center;
-}
 
 
 @container content-container (min-width:180px) {
