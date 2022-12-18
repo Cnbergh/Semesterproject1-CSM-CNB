@@ -274,7 +274,14 @@ footer {
     border: none;
     padding: 0px;
     margin: 0px;
-    background: var(--color-light-red);
+    background: linear-gradient(
+      to bottom, 
+      var(--color-light-red) 20%, 
+      white 20%, white 40%, 
+      var(--color-light-red) 40%, var(--color-light-red) 60%, 
+      white 60%, white 80%, 
+      var(--color-light-red) 80%, var(--color-light-red) 100%
+    );
 }
 
 #hamburger-menu #sidebar-menu {
