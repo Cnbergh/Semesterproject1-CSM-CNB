@@ -8,15 +8,15 @@ textarea {
 
 textarea {
   height: 70%;
-  min-height: 100px;
+  min-height: 250px;
   min-width: 640px;
   resize: vertical;
 }
 
 .contact {
-  max-width: 640px;
+  max-width: 1440px;
   margin: 0 auto;
-  text-align: left;
+  text-align: center;
   padding: 10px 0 20px;
 }
 
