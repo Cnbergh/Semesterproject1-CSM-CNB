@@ -260,7 +260,7 @@ footer {
   cursor: pointer;
 }
 
-label .hamburger {
+button .hamburger {
   position: absolute;
   top: 1.5rem;
   right: 10px;
@@ -274,8 +274,8 @@ label .hamburger {
   transition: .5s ease-in-out;
 }
 
-label .hamburger:after,
-label .hamburger:before {
+button .hamburger:after,
+button .hamburger:before {
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
   content: "";
@@ -286,68 +286,49 @@ label .hamburger:before {
   background: #69d2e7;
 }
 
-label .hamburger:before {
+button .hamburger:before {
   top: -10px;
 }
 
-label .hamburger:after {
+button .hamburger:after {
   bottom: -10px;
 }
 
-label input {
+button input {
   display: none;
 }
 
-label input:checked+.menu {
+button input:checked+.menu {
   box-shadow: 0 0 0 100vw #FFF, 0 0 0 100vh #FFF;
   border-radius: 0;
 
 }
 
-label input:checked+.menu .hamburger {
+button input:checked+.menu .hamburger {
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
 
 }
 
-label input:checked+.menu .hamburger:after {
+button input:checked+.menu .hamburger:after {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   bottom: 0;
 
 }
 
-label input:checked+.menu .hamburger:before {
+button input:checked+.menu .hamburger:before {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   top: 0;
 
 }
 
-label input:checked+.menu+ul {
+button input:checked+.menu+ul {
   opacity: 1;
 }
 
-label ul {
-  z-index: 200;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  opacity: 0;
-  -webkit-transition: .25s 0s ease-in-out;
-  transition: .25s 0s ease-in-out;
-  z-index: 6;
-}
 
-label a {
-  margin-bottom: 1em;
-  display: block;
-  color: #f38630;
-  text-decoration: none;
-
-}
 
 
 #hamburger-input {
@@ -429,6 +410,25 @@ ul li a{
   padding: 3rem;
 }
 .main-menu {
+}
+.main-menu ul {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: .25s 0s ease-in-out;
+  transition: .25s 0s ease-in-out;
+  z-index: 6;
+}
+
+.main-menu a {
+  margin-bottom: 1em;
+  display: block;
+  color: #f38630;
+  text-decoration: none;
 }
 
 .sidebar.expanded .hamburger:after {
