@@ -725,7 +725,5 @@ ul li a{
     margin-bottom: 0;
 
   }
-  .card:has(h2:is(Explore together)) {
-  }
 
 }
