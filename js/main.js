@@ -2,8 +2,8 @@ function toogleHamburger() {
     const nav = document.getElementById('sidebar-menu');
     nav.classList.toggle('expanded')
 }
-function submitcontactform() {
-    alert("The form was submitted");
+function submitcontactform(text) {
+    alert(text);
   }
   function openCheckout() {
     const checkout=document.getElementById('checkout');
