@@ -429,13 +429,10 @@ footer {
 .card {
   display: grid;
   grid-template-columns: auto;
-  gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
 }
 
 @container content-container (min-width:180px) {
-.card:has(h3,p) {
-  gap:0
-}
+  padding:0;
 }
