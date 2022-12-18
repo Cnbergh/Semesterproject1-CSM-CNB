@@ -286,10 +286,14 @@ footer {
 
 
 #menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  top: 1.2rem;
   position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
   -webkit-touch-callout: none;
 }
 
