@@ -31,15 +31,17 @@
       </a>
       <div class="flex-aligne-items-center width-inline-block">
         <div class="header-midle-wrapper">
-          <li class="header-nav-item nav-text-block">
-            <a href="/visit.html" class="font-white a-action">Visit us</a>
-          </li>
-          <li class="header-nav-item nav-text-block">
-            <a href="/explore.html" class="font-white a-action">Explore together</a>
-          </li>
-          <li class="header-nav-item nav-text-block">
-            <a href="/whats-on.html" class="font-white a-action">What's on</a>
-          </li>
+          <ul>
+            <li class="header-nav-item nav-text-block">
+              <a href="/visit.html" class="font-white a-action">Visit us</a>
+            </li>
+            <li class="header-nav-item nav-text-block">
+              <a href="/explore.html" class="font-white a-action">Explore together</a>
+            </li>
+            <li class="header-nav-item nav-text-block">
+              <a href="/whats-on.html" class="font-white a-action">What's on</a>
+            </li>
+          </ul>
         </div>
       </div>
       <div class="flex-aligne-items-center width-inline-block">
@@ -48,26 +50,31 @@
         </a>
         <div class="nav-icon">
           <div class="menu-wrap">
-            <input type="checkbox" id="hamburger-input" />
-            <label id="hamburger-menu" for="hamburger-input">
+            <button id="hamburger-menu" class="nav-toggle-bar" onclick="toogleHamburger()">
               <span class="menu"><span class="hamburger"></span></span>
-              <nav id="sidebar-menu">
-                <h3>Menu</h3>
-                <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="/visit.html">Visit us</a></li>
-                  <li><a href="/explore.html">Explore together</a></li>
-                  <li><a href="/whats-on.html">What's on</a></li>
-                  <li><a href="/events.html">Events</a></li>
-                  <li><a href="/exhibitions.html">Exhibitions</a></li>
-                  <li><a href="/tickets.html">Tickets</a></li>
-                  <li><a href="/contact-us.html">Contact us</a></li>
-                </ul>
-              </nav>
-            </label>
-            <div class="overlay"></div>
+            </button>
           </div>
         </div>
+      </div>
+      <div class="sidebar" id="sidebar-menu">
+        <div class="menu-wrap">
+          <button id="hamburger-menu" class="nav-toggle-bar" onclick="toogleHamburger()">
+            <span class="menu"><span class="hamburger"></span></span>
+          </button>
+        </div>
+        <nav class="main-nav">
+          <h3>Menu</h3>
+          <ul class="main-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/visit.html">Visit us</a></li>
+            <li><a href="/explore.html">Explore together</a></li>
+            <li><a href="/whats-on.html">What's on</a></li>
+            <li><a href="/events.html">Events</a></li>
+            <li><a href="/exhibitions.html">Exhibitions</a></li>
+            <li><a href="/tickets.html">Tickets</a></li>
+            <li><a href="/contact-us.html">Contact us</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
   </header>
@@ -108,16 +115,16 @@
             impaired.
           </p>
           <div class="grid-item"></div>
-            <h3>Food and drink</h3>
-            <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and
+          <h3>Food and drink</h3>
+          <p>There is a café attached to the museum where you can get light lunches, soft drinks, coffee, snacks and
             more.
             Shop
             Our shop offers a range of memorabilia from the museum as well as great gifts and activity packs that allow
             you to
             continue to explore science even after you’ve left the museum.</p>
-          </div>
         </div>
       </div>
+    </div>
     </div>
   </main>
   <footer class="footer">
