@@ -434,7 +434,7 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-.card:has(p) {
+.card:has(h3,p) {
   gap:0
 }
 }
