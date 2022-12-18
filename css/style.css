@@ -436,18 +436,24 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-  .card > p {
+  h2 {
+    font-size:1.5rem;
+    font-size:clamp(1.5rem,2cqi,3rem);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card > h3 {
     font-size:1rem;
+    font-size:clamp(1rem,1.5cqi,2.5rem);
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .card > p {
+    font-size:0.7rem;
     font-size:clamp(0.7rem,2cqi,1.2rem);
     line-height: 2em;
     margin-top: 0;
     margin-bottom: 0;
     
-  }
-  .card > h3 {
-    font-size:1rem;
-    font-size:clamp(1rem,2cqi,2rem);
-    margin-top: 0;
-    margin-bottom: 0;
   }
 }
