@@ -83,3 +83,10 @@
     }
   }
 
+  .main-checkout {
+    display: none;
+  }
+
+  .main-checkout.expanded{
+    display: block;
+  }
