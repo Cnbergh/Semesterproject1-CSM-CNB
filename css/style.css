@@ -47,12 +47,14 @@ h1 {
   font-family: var(--primary-headings-font-family);
   letter-spacing: 0.1rem;
   padding: 0.5rem;
+  margin: 0;
 }
 
 h2,
 h3 {
   font-family: var(--primary-body-font-family);
   padding: 0.5rem;
+  margin: 0;
 }
 
 *,
