@@ -374,6 +374,8 @@ footer {
 
 
 .container {
+  container-type: inline-size;
+  container-name: content-container;
   padding: 1rem;
   gap: 1rem;
   width: 100%;
@@ -381,7 +383,7 @@ footer {
 
 .container>* {
   container-type: inline-size;
-  container-name: content-container;
+  container-name: item-container;
   margin-inline: auto;
   flex: 1;
   gap: 1;
