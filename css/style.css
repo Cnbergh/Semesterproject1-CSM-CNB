@@ -447,5 +447,7 @@ footer {
   .card > h3 {
     font-size:1rem;
     font-size:clamp(1rem,2cqi,2rem);
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
