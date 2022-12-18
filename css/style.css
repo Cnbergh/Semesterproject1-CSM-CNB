@@ -266,7 +266,6 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  cursor: pointer;
   
   z-index: 1;
   
@@ -294,8 +293,6 @@ footer {
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
   
   cursor: pointer;
   
