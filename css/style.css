@@ -194,6 +194,7 @@ footer {
   min-width: 148px;
   max-width: 280px;
   cursor: pointer;
+  margin: 0 auto;
 }
 
 .standard-button:hover,
