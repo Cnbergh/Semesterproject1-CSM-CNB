@@ -428,6 +428,15 @@ footer {
   padding-bottom: 1rem;
 }
 
+.flex-column {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
 .grid-item {
   margin: 0 1rem auto;
   max-width: 280px;
