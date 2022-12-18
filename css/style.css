@@ -389,17 +389,17 @@ footer {
 
 .grid-item_container {
   display: grid;
-  grid-template-rows: auto;
+  grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
 
-.grid-item_container>* {
+.grid-item_container>.grid-item {
   container-type: inline-size;
   container-name: grid-item_container;
   margin-inline: auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
   gap: 1rem;
 }
 
