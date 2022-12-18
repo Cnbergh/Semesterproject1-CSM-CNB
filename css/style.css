@@ -298,6 +298,7 @@ footer {
     position: absolute;
     z-index: 2;
     background: var(--color-light-blue);
+    color: var(--primary-font-color)
     opacity: 0.97;
   }
 }
@@ -305,14 +306,10 @@ footer {
 @container hero (min-width:470px) {
 
   .hero-text-block {
-    text-align: center;
     position: absolute;
     right: 0;
     z-index: 2;
     font-size: 1.2rem;
-    margin: auto;
-    background: var(--color-dark-orange);
-    opacity: 0.97;
   }
 
   .hero-button {
@@ -323,16 +320,12 @@ footer {
 
 @container hero (min-width: 980px) {
   .hero-text-block {
-    text-align: center;
-    position: absolute;
     right: 70px;
     z-index: 2;
     font-size: 3rem;
     font-size: clamp(0.9rem, 10cqi + 0.5rem, 3rem);
     margin: 4rem 0px 2rem;
     max-width: 30%;
-    background: var(--color-dark-orange);
-    opacity: 0.97;
   }
 
   .hero-button {
