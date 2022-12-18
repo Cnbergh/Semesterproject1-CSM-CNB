@@ -243,6 +243,7 @@ footer {
   position: relative;
   padding: 8px;
   background-color: transparent;
+  border: 1px solid;
   cursor: pointer;
 }
 
@@ -436,13 +437,13 @@ footer {
 }
 
 @container content-container (min-width:180px) {
-  h2 {
+  .card-list_title {
     font-size:1.5rem;
     font-size:clamp(1.5rem,2cqi,3rem);
     margin-top: 0;
     margin-bottom: 0;
   }
-  .card > h3 {
+  .card-title {
     font-size:1rem;
     font-size:clamp(1rem,1.5cqi,2.5rem);
     margin-top: 0;
