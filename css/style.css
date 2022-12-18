@@ -342,10 +342,10 @@ footer {
 
 #menu {
   position: absolute;
-  width: 100%;
-  margin: 0;
+  width: 100vh;
+  margin: 10rem auto 10rem;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 10rem 3rem;
 
   background: var(--color-beige);
   list-style-type: none;
