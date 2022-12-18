@@ -467,7 +467,6 @@ footer {
   }
 
   .card-title {
-    text-align: center;
     font-size: 1rem;
     font-size: clamp(1rem, 1.5cqi, 2.5rem);
     margin-top: 0;
