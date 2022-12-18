@@ -8,13 +8,11 @@ textarea {
 }
 
 textarea {
-  min-height: 250px;
-  min-width: 250px;
-  max-width: 670px;
   resize: vertical;
 }
-.textarea {
+.textarea {a
     width:100%;
+    max-width: 670px;
 }
 
 .contact {
