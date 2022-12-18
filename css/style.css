@@ -99,7 +99,11 @@ img {
   height: 60px;
   width: 60px;
 }
-
+.footer-logo {background-image: url(/images/csm-logo/Logo-solid.png);
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+}
 
 header,
 footer {
