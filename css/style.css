@@ -416,6 +416,13 @@ footer {
   justify-content: center;
 }
 
+.flex-row > * {
+  container-type: inline-size;
+  container-name: flex-row_container;
+  display: flex;
+  flex-flow: column wrap;
+}
+
 .grid-item {
   margin: 0 1rem auto;
 }
@@ -431,4 +438,5 @@ footer {
   gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
+  max-width: 280px;
 }
