@@ -476,7 +476,7 @@ footer {
   .card>p {
     font-size: 0.7rem;
     font-size: clamp(0.7rem, 2cqi, 1.2rem);
-    line-height: 2em;
+    line-height: clamp(1.5rem,2cqi,2rem);
     margin-top: 0;
     margin-bottom: 0;
 
