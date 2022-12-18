@@ -264,6 +264,11 @@ footer {
   container-name: hero;
   margin-inline: auto;
 }
+@media (min-width:374px) {
+  .hero {
+    display: flex;
+  }
+}
 
 .hero-img {
   width: 100%;
@@ -297,9 +302,6 @@ footer {
 }
 
 @container hero (min-width:374px) {
-  .hero{
-    display:flex;
-  }
 
   .hero-text-block {
     text-align: center;
