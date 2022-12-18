@@ -52,6 +52,8 @@
   background-color: var(--color-light-red);
 }
 
+
+
 html,
 body {
   text-rendering: optimizespeed;
@@ -627,6 +629,11 @@ ul li a{
   gap: 1rem;
 }
 
+@container grid-item_container (min-width:410px) {
+  .content-wrapper {
+    max-width:780px;
+  }
+}
 
 .flex-row {
   display: flex;
