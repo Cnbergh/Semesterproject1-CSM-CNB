@@ -193,6 +193,7 @@ footer {
   align-items: center;
   justify-content: center;
   background: var(--color-blue);
+  color: var(--color-white);
   padding: 5px 15px;
   min-height: 48px;
   min-width: 148px;
