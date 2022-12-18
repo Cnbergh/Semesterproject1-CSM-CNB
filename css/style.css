@@ -265,6 +265,7 @@ footer {
 }
 
 #hamburger-menu {
+  cursor: pointer;
     position: fixed;
     top: 1rem;
     right: 12px;
