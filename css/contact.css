@@ -1,0 +1,34 @@
+input,
+select,
+textarea {
+  border: 1px solid var(--colour-gray-light-dark);
+  padding: 10px;
+  font-family: var(--ff-secondary);
+}
+
+textarea {
+  height: 70%;
+  min-height: 100px;
+  min-width: 640px;
+  resize: vertical;
+}
+
+.contact {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 10px 0 20px;
+}
+
+.form-wrapper {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  padding: 20px 0 20px;
+}
+
+.form-wrapper > * {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
