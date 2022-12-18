@@ -38,6 +38,17 @@
   background-color: var(--color-light-blue);
 }
 
+.background-color-blue {
+  background-color: var(--color-blue);
+}
+
+.background-color-orange {
+  background-color: var(--color-orange);
+}
+.background-color-red {
+  background-color: var(--color-light-red);
+}
+
 html,
 body {
   text-rendering: optimizespeed;
@@ -685,6 +696,7 @@ ul li a{
     margin-bottom: 0;
 
   }
+  
 
 }
 
@@ -712,6 +724,8 @@ ul li a{
     margin-top: 0;
     margin-bottom: 0;
 
+  }
+  .card:has(h2:is(Explore together)) {
   }
 
 }
