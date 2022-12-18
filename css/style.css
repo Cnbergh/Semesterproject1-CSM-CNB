@@ -376,9 +376,10 @@ footer {
 .container {
   padding: 1rem;
   gap: 1rem;
+  width: 100%;
 }
 
-.container>* {
+.container>* and >* {
   container-type: inline-size;
   container-name: content-container;
   margin-inline: auto;
@@ -388,8 +389,8 @@ footer {
 
 .grid-item_container {
   display: grid;
-  grid-template-rows: auto;
-  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
 }
 
 
@@ -398,8 +399,8 @@ footer {
   container-name: grid-item_container;
   margin-inline: auto;
   display: grid;
-  grid-template-columns: auto;
-  gap: 1rem;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
 }
 
 .card-list_title {
@@ -429,4 +430,10 @@ footer {
   gap: 2rem;
   margin: 0 auto;
   padding: 1rem;
+}
+
+@container content-container (min-width:280px) {
+.card {
+  background:var(--color-beige);
+}
 }
