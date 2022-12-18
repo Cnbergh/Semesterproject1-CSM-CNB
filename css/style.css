@@ -301,7 +301,7 @@ footer {
   }
 }
 
-@container hero (min-width:374px) {
+@container hero (min-width:410px) {
 
   .hero-text-block {
     text-align: center;
